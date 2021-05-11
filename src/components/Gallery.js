@@ -8,7 +8,6 @@ const Image = styled.img`
     transition: transform .2s;
     width: 100%;
     height: auto;
-    padding: 0.2rem;
     opacity: 1;
 
 `

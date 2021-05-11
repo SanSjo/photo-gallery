@@ -38,7 +38,7 @@ const SubTitle = styled.h2`
 `
 const GalleryContainer = styled.div`
   column-count: 3;
-  column-gap: 1px; 
+  column-gap: 0.2rem; 
 `
 
 const PaginationContainer = styled.div`
@@ -50,7 +50,8 @@ const PaginationContainer = styled.div`
 `
 
 
-const clientId = process.env.REACT_APP_BART_API_KEY;
+const clientId = '8898219ed3a1348f7824ed49c81895f8e31b0ac598e39e7337b2d34d6ede8c1f';
+
 
 const App = () => {
   const [totalResults, setTotalResults] = useState(0);
