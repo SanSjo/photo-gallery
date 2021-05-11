@@ -9,11 +9,14 @@ const Image = styled.img`
     width: 100%;
     height: auto;
     opacity: 1;
-
+    &:hover{
+        transform: scale(1.1);
+    }
 `
 
 export const Gallery = (props) => {
     return (
+    
             <>
             <Image src={props.photo} alt={props.alt} />
             </>
