@@ -94,7 +94,7 @@ const handleSearch = (event) => {
           <Container>
             <Title>Find your favorite image</Title>
             <SubTitle>The sky is the limit</SubTitle>
-            <SearchPhotos handleSearch={handleSearch} onInputChange={onInputChange} searchPhoto={searchPhoto} result={result} />
+            <SearchPhotos handleSearch={handleSearch} onInputChange={onInputChange} searchPhoto={searchPhoto} result={result} alt={result.alt_description} />
           </Container>
         </Header>
 

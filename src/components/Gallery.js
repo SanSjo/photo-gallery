@@ -15,7 +15,7 @@ const Image = styled.img`
 export const Gallery = (props) => {
     return (
             <>
-            <Image src={props.photo} alt={props.alt} src={props.photo} />
+            <Image src={props.photo} alt={props.alt} />
             </>
     
     )
