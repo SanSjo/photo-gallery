@@ -100,10 +100,15 @@ const handleSearch = (event) => {
 
       
         <GalleryContainer>
-            {result.map((photo, index) => (
-              <>
-              <Gallery key={index} photo={photo.urls.regular} photographer={photo.user.name}/>
-              </>
+            {result.map((photo) => (
+              <div key={photo.id}>
+                <Gallery 
+                photo={photo.urls.regular} 
+                photographer={photo.user.name} 
+                title={photo.description}
+                profileImg={photo.user.profile_image.medium}
+                portfolio={photo.user.portfolio_url}/>
+              </div>
               ))}
         </GalleryContainer>
     
